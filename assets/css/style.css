@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
+    
 }
 body {
     font-family: "Montserrat", sans-serif;
@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:30px 20%;
+    padding:10px 20%;
 }
 .logo {
     cursor: pointer;
@@ -46,8 +46,8 @@ header {
 }
 /* cta button */
 button {
-    padding: 10px 25px;
-    background-color: rgba (249,105,14, 1);
+    padding: 5px 25px;
+    background-color: rgba(249,105,14,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -55,5 +55,11 @@ button {
 }
 
 button:hover {
-    background-color: rgba (249,105,14, 0)
+    background-color: rgba(249,105,14,0.8)
+}
+/*hero image*/
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/Secret\ sauce\ hero\ image.png') no-repeat center center;
 }
