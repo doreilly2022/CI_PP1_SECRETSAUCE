@@ -58,8 +58,39 @@ button:hover {
     background-color: rgba(249,105,14,0.8)
 }
 /*hero image*/
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text  {
+    color:white;
+    font: size 100%;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;  
+
+    width:300px;
+    height: 250px;
+
+    padding-top:40px;
+    padding-left: 10px;
+
+    background-color: rgba(249,105,14,0.8);
+
+    bottom: 50px;
+    right:150px;
+
+    position:absolute;
+}
+#cover-text h1 {
+    font-size:200%;
+}
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../images/Secret\ sauce\ hero\ image.png') no-repeat center center;
 }
