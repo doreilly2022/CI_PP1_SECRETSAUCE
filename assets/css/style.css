@@ -96,18 +96,42 @@ button:hover {
 }
 /*Benefits/Icons Section*/
 .icon-boxes {
-    height: 500px;
+    background-color: azure;
     width: 100%;
-    display: flex;
-    gap: 2rem;
-    border: 10px 10px;
-    margin: 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding:20px;
+    grid-gap: 40px;
 }
 .box {
-    flex-basis: auto;
-    background-color: azure;
-    text-align: center;
-    font-family:"Lato", sans-serif ;
+   background-color: #1b0b54;
+   border-radius: 20px;
+   box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+.container {
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
+}
+img {
+    width:100%;
+    display:block;
+    border-radius: 20px 20px 0 0;;
+}
+.container:after{
+    content:"";
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+}
+.box >.container:after{
+    background-image:linear-gradient(
+        135 deg,
+        #0100ec,
+        #fb36f4,
+        );
 }
 
 .icon {
@@ -117,8 +141,9 @@ button:hover {
     padding: 30px;
 }
 
-/*sales then section*/
+/*sales then section
 #sales-then {
+    margin-top: 20px;
     height: 500px;
     display: flex;
    
@@ -153,4 +178,5 @@ button:hover {
     margin-right: auto;
     width: 100%;
 }
+*/
 
