@@ -86,7 +86,7 @@ button:hover {
 
     position:absolute;
 }
-#cover-text h1 {
+#cover-text h2 {
     font-size:200%;
 }
 #hero-image {
@@ -95,6 +95,12 @@ button:hover {
     background: url('../images/Secret\ sauce\ hero\ image.png') no-repeat center center;
 }
 /*Benefits/Icons Section*/
+h1 {
+    font-family: "Montserrat", sans-serif;
+    background-color: azure;
+    color:#1b0b54;
+    padding: 20px;
+}
 .boxes {
     background-color: azure;
     width: 100%;
