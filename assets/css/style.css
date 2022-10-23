@@ -99,7 +99,7 @@ h1 {
     font-family: "Montserrat", sans-serif;
     background-color: azure;
     color:#1b0b54;
-    padding: 20px;
+    padding: 25px;
 }
 .boxes {
     background-color: azure;
@@ -154,19 +154,17 @@ h1 {
     line-height: 30px;
     font-weight: 400;
 }
-
-
-
 /*sales then section*/
-#sales-then {
+.sales-then {
     margin-top: 20px;
     height: 500px;
-    display: flex;
-   
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(2,1fr);
 }
-#sales-then-left {
+
+.sales-then-left {
     padding-top: 30px;
-    flex:1;
     width:50%;
     margin: 20px;
     font-family:"Lato", sans-serif ;
@@ -181,18 +179,8 @@ h1 {
 .sales-then-list {
     list-style-type: none;
 }    
-#sales-then-right {
+.sales-then-right {
     padding-top: 30px;
-    flex:1;
     width:50%;
     height:500px;
-}
-.sales-then-image {
-    border-radius:10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-
+} 
