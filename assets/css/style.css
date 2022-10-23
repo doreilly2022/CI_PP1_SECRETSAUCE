@@ -202,7 +202,7 @@ h1 {
 /*sales now section*/
 .sales-now {
     margin-top: 20px;
-    height: 500px;
+    height: 300px;
     display: grid;
     gap: 1rem;
     grid-template-columns:repeat(2,1fr);
