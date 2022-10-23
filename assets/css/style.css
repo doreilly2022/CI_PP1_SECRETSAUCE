@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    
+    box-sizing: border-box;
 }
 body {
     font-family: "Montserrat", sans-serif;
@@ -94,6 +94,29 @@ button:hover {
     width: 100%;
     background: url('../images/Secret\ sauce\ hero\ image.png') no-repeat center center;
 }
+/*Benefits/Icons Section*/
+.icon-boxes {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    border: 10px 10px;
+    margin: 15px 10px;
+}
+.box {
+    flex-basis: auto;
+    background-color: azure;
+    text-align: center;
+    font-family:"Lato", sans-serif ;
+}
+
+.icon {
+    vertical-align: middle;
+    text-align: center;
+    color:#1b0b54;
+    padding: 30px;
+}
+
 /*sales then section*/
 #sales-then {
     height: 500px;
