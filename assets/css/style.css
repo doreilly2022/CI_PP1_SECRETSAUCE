@@ -94,7 +94,7 @@ button:hover {
     width: 100%;
     background: url('../images/Secret\ sauce\ hero\ image.png') no-repeat center center;
 }
-/*Benefits/Icons Section*/
+/*Benefits Section*/
 h1 {
     font-family: "Montserrat", sans-serif;
     background-color: azure;
@@ -157,7 +157,7 @@ h1 {
 /*sales then section*/
 .sales-then {
     margin-top: 20px;
-    height: 500px;
+    height: 300px;
     display: grid;
     gap: 1rem;
     grid-template-columns:repeat(2,1fr);
@@ -199,3 +199,47 @@ h1 {
     font-size: 18px;
 } 
 
+/*sales now section*/
+.sales-now {
+    margin-top: 20px;
+    height: 500px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.sales-now-left {
+    padding-top: 30px;
+    padding-left: 50px;
+    width:100%;
+    margin: 20px;
+    font-family:"Lato", sans-serif ;
+    font-size: 20px;
+}
+#sales-now-left-heading {
+    font-family:"Montserrat", sans-serif ;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 5%;
+    color: #1b0b54;
+}
+.sales-now-list {
+    list-style-type: none;
+    line-height: 25px;
+    font-size: large;
+    text-align:unset ;
+}
+#sales-now-right-heading {
+    font-family:"Montserrat", sans-serif ;
+    font-style: italic;
+    padding-bottom: 5%;
+    color: #1b0b54;
+}  
+.sales-now-right {
+    padding-top: 30px;
+    width:100%;
+    margin: 20px;
+    font-family:"Lato", sans-serif ;
+    font-size: 18px;
+} 
