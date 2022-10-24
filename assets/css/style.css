@@ -44,6 +44,9 @@ header {
 .nav-links li a:hover {
     color:blue;
 }
+.active {
+    border-bottom: 1px solid #1b0b54;
+}
 /* cta button */
 button {
     padding: 5px 25px;
