@@ -360,10 +360,6 @@ footer {
     color:#999;
     padding-top: 50px;
 }
-.footer-left p {
-    padding-right: 20%;
-    color: #999;
-}
 .socials a {
     width: 40px;
     height:40px;
@@ -375,8 +371,21 @@ footer {
     padding: 10px 12px;
     font-size: 20px;
 }
+.newsletter {
+    text-align:center;
+}
+#newsletter form {
+    width:400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
 
-@media screen (min-width: 600px) {
+@media (min-width: 600px){
     .footer-right > * {
         flex: 1;
     }
@@ -384,6 +393,6 @@ footer {
         flex: 1 0px;
     }
     .footer-right {
-        flex: 1 0px;
+        flex: 2 0px;
     }
 }
