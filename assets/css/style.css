@@ -436,9 +436,11 @@ footer {
 }
 /* blog box containers */
 .blog-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: auto;
 }
 .blog-box {
     padding:20px;
@@ -477,4 +479,22 @@ footer {
     margin: 10px 0px;
     line-height: 25px;
     font-family:"Montserrat", sans-serif ;
+}
+.category-time {
+    display: flex;
+    align-items: center;
+}
+.category-time span {
+    font-size: 0.8rem;
+}
+.blog-category {
+    padding:3px 6px;
+    color: #1b0b54;
+    font-weight: 500;
+    background-color:rgba(0, 0, 0, 0.05);
+}
+.published-time {
+    margin-left: 10px;
+    color: #1b0b54;
+    font-weight: 500;
 }
