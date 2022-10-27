@@ -35,7 +35,7 @@
             <nav>
                 <h1>Resources</h1>
                 <ul class="blog-filter">
-                    <li class="blog-list">All </li>
+                    <li class="blog-list blog-filter-active">All </li>
                     <li class="blog-list">Sales Calls</li>
                     <li class="blog-list"> Sales Numbers</li>
                 </ul>
@@ -94,5 +94,15 @@
 
     <!-- font awsome script-->
     <script src="https://kit.fontawesome.com/e754beab81.js" crossorigin="anonymous"></script>
+
+    <!--  JQuery-->
+    <script type="text/javascript" src="/js/JQuery.js"></script>
+
+    <!-- script-->
+    <script type="text/javascript">
+        $(document).on('click', 'blog-filter li', function (){
+            $(this).addClass('blog-filter-active').siblings().removeClass('blog-filter-active')
+        })
+    </script>
 </body>
 </html>

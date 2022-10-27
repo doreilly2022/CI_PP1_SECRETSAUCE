@@ -429,7 +429,8 @@ footer {
     list-style: none;
     user-select: none;
 }
-.blog-filter li:hover {
-    color: rgba(249,105,14,0.8);
+.blog-filter li:hover,
+.blog-filter-active {
+    color: rgba(249,105,14,0.8) !important;
     transition: all ease 0.3s;
 }
