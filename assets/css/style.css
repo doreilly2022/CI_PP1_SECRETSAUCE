@@ -567,6 +567,21 @@ footer {
     justify-content: center;
 }
 /*Speakers Section*/
+.wrapper {
+    margin-top: 50px;
+}
+.wrapper .speaker {
+    width:auto;
+    display:flex;
+
+}
+.speaker-name img {
+    width:33%;
+    height:400px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+
+}
 
 /* ----------------------------- Media Queries ---------------------------------- */
 
