@@ -498,3 +498,28 @@ footer {
     color: #1b0b54;
     font-weight: 500;
 }
+
+@media(max-width: 1200px) {
+    .blog-container {
+        max-width:1000px;
+    }
+    .blog-img {
+        min-height:auto;
+        height: 170px;
+    }
+}
+@media (max-width: 900px) {
+    .blog-container {
+        max-width:100%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .blog-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .blog-img {
+        height:auto;
+    }
+}
