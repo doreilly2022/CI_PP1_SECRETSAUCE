@@ -209,7 +209,25 @@
             </div>
         </div>
     </section>
-    <section> call to action</section>
+    <section class="cta-section">
+        <div class="cta-background-overlay">
+        </div>
+        <div class="cta-content">
+            <div class="cta-col col-1">
+                <div class="col-content">
+                <h2>Ready to play the Game?</h2>
+                <p> Learn how you can take control of your sales process for good with Secret Sauce Sales Coaching</p>
+            </div>
+        </div>
+        <div class="col-content">
+            <div class="cta-col col-2">
+                <div class="btn-holder">
+                    <a href="contact.html" class="cta-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
 
     <footer class="footer">
         <div class="footer left">
@@ -283,6 +301,8 @@
                 }
             });
         });
+
+        /*fix filter menu*/
         $(window).scroll(function(){
             if($(document).scrollTop() > 80){
                 $('nav').addClass('fix-nav');
@@ -291,7 +311,7 @@
                 $('nav').removeClass('fix-nav');
             }
         });
-    /*fix filter menu*/
+    
 
     </script>
 </body>
