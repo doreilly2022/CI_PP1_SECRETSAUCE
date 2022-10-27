@@ -399,3 +399,31 @@ footer {
         flex: 2 0px;
     }
 }
+/* Next Page */
+/* Resources Page */
+.blog-filter ul {
+    list-style: none;
+}
+
+::selection {
+    background-color: #1b0b54;
+    background-color: #ffffff;
+}
+.blog-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    background-color: #1b0b54;
+    
+}
+.blog-filter li {
+    color:#ffffff;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 3px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
