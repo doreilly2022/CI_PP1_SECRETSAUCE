@@ -514,58 +514,7 @@ footer {
     width: 100%;
     height:100%;
 }
-.banner-content {
-    z-index:1;
-    position:relative;
-    max-width: 1200px;
-    margin: auto;
-    text-align:center;
-    color:#ffffff
-}
-.banner-content h2 {
-    font-size: 50px;
-    font-family:"Montserrat", sans-serif ;
-    letter-spacing: 2px;
-    margin: 15px 0;
-}
-.banner-content p {
-    line-height: 24px;
-    font-family: "Lato", sans-serif ;
-    font-size: 20px;
-}
-.banner-btn {
-    padding: 18px 40px;
-    line-height: 21px;
-    font-size: 18px;
-    color: #ffffff;
-    text-decoration: none;
-    background: #f96700;
-    text-transform: uppercase;
-    display: block;
-}
-.banner-btn-holder {
-    float: right;
-}
-.banner-col {
-    margin-bottom: 15px;
-    width: 100%;
-    float:left;
-}
-@media (min-width: 600px) {
-    .banner-content {
-        text-align: left;
-    }
-    .banner-col {
-        min-height:200px;
-    }
-    .banner-col-1 {width: 60%}
-    .banner-col-2 {width:40%}
-}
-.banner-col-2 {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
+
 /*Speakers Section*/
 .wrapper h1 {
     text-align: center;
