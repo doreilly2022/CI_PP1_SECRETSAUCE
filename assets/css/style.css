@@ -579,6 +579,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-left: 10px;
 }
 .contact-container .contactinfo .contact-box {
     position: relative;
@@ -615,6 +616,29 @@ footer {
     color:#1b0b54;
     font-weight: 500;
 }
+.contact-form .forminput {
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+}
+.contact-form .forminput input {
+    width: 100%;
+    padding:5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #1b0b54;
+    outline: none;
+    resize: none;
+
+}
+.contactform .forminput span {
+    position:absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+}
 
 /* ----------------------------- Media Queries ---------------------------------- */
 
@@ -633,6 +657,7 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (max-width: 600px) {
     .blog-container {
         width: 90%;
@@ -640,5 +665,12 @@ footer {
     }
     .blog-img {
         height:auto;
+    }
+    .contact {
+        padding:50px;
+    }
+    .contact-container {
+        flex-direction: column;
+        width:auto;
     }
 }
