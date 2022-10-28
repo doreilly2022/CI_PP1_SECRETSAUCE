@@ -567,20 +567,10 @@ footer {
     justify-content: center;
 }
 /*Speakers Section*/
-.wrapper {
-    margin-top: 50px;
-}
-.wrapper .speaker {
-    width:auto;
+#banner-section {
     display:flex;
-
-}
-.speaker-name img {
-    width:33%;
-    height:400px;
-    border-radius: 50%;
-    border: 5px solid #ffffff;
-
+    flex-wrap: wrap;
+    
 }
 
 /* ----------------------------- Media Queries ---------------------------------- */
