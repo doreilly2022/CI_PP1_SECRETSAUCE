@@ -543,6 +543,43 @@ footer {
     transition: 0.5s;
 }
 
+/* ----------------------------- Media Queries ---------------------------------- */
+.contact{
+    position:relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/assets/images/vintage_background.jpg);
+    background-size: cover;
+}
+.contact .contact-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .contact-content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif ;
+
+}
+.contact .contact-content p {
+    font-weight: 300;
+    color: #ffffff;
+    font-family: "Lato", sans-serif ;
+
+}
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
 
 /* ----------------------------- Media Queries ---------------------------------- */
 
