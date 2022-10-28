@@ -567,11 +567,29 @@ footer {
     justify-content: center;
 }
 /*Speakers Section*/
-#banner-section {
-    display:flex;
-    flex-wrap: wrap;
-    
+.wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif ;
 }
+.speakers-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.speakers-container img {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+.speakers-container img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
 
 /* ----------------------------- Media Queries ---------------------------------- */
 
