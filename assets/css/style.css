@@ -605,6 +605,16 @@ footer {
     flex-direction: column;
     font-weight: 300;
 }
+.contact-form {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contact-form h2 {
+    font-size: 30px;
+    color:#1b0b54;
+    font-weight: 500;
+}
 
 /* ----------------------------- Media Queries ---------------------------------- */
 
