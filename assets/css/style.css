@@ -646,6 +646,9 @@ footer {
     }
 }
 @media (max-width: 900px) {
+    .nav-links li {
+        flex-direction: column;
+    }
     .st-row {
         flex-direction: column;
     }
