@@ -640,6 +640,18 @@ footer {
     margin: 10px 0;
 }
 /* ----------------------------- 404 page ---------------------------------- */
+.error-404-section img{
+    height: 500px;
+    width: auto;
+}
+.error-404-section {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+
 /* ----------------------------- Media Queries ---------------------------------- */
 
 @media(max-width: 1200px) {
