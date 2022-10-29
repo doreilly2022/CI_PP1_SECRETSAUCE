@@ -488,7 +488,14 @@ footer {
 /*Text section with download button */
 .ss-live-cont {
     padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
+}
+.ss-live-cont h2 {
+    margin-bottom: 15px;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 25px;
+    color: #1b0b54;
 }
 .ss-live-row {
     display: flex;
@@ -499,6 +506,14 @@ footer {
 .ss-col {
     flex-basis: 50%;
 
+}
+.ss-col h3 {
+    color: #1b0b54;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.ss-col p {
+    color: black;
 }
 
 /* ----------------------------- Media Queries ---------------------------------- */
