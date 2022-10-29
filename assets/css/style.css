@@ -494,7 +494,7 @@ footer {
 .ss-live-cont h2 {
     margin-bottom: 15px;
     font-family:"Montserrat", sans-serif ;
-    font-size: 25px;
+    font-size: 40px;
     color: #1b0b54;
 }
 .ss-live-row {
@@ -510,10 +510,22 @@ footer {
 .ss-col h3 {
     color: #1b0b54;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 15px;
 }
 .ss-col p {
     color: black;
+    text-align: left;
+}
+
+.ss-col button {
+    margin-top: 5%;
+    font-size: 25px
+}
+.ss-col button a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px
 }
 
 /* ----------------------------- Media Queries ---------------------------------- */
