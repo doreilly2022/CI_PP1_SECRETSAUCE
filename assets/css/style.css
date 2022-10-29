@@ -488,11 +488,11 @@ footer {
 /*Text section with download button */
 .ss-live-cont {
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     text-align: center;
 }
 .ss-live-cont h2 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-family:"Montserrat", sans-serif ;
     font-size: 40px;
     color: #1b0b54;
@@ -652,6 +652,9 @@ footer {
     .blog-container {
         max-width:100%;
         grid-template-columns: 1fr 1fr;
+    }
+    .ss-live-row {
+        flex-direction: column;
     }
 }
 
