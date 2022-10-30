@@ -36,3 +36,60 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Project Goals 
+
+### User Goals 
+- To find a sales coach that will help them improve their close rate and elevate their career.
+- To find resources to help validate their search for the best sales coach. 
+- To book in a call to discuss sales coaching. 
+
+### Site Owner Goals
+- To solidify their presence as a thought leader in the sales coaching market. 
+- To get prospects to book in a call for consulation. 
+- To promote upcoming events and conferences. 
+
+## User Experience
+
+###Target Audience
+- Tech sales professionals across UKI. 
+- Technology companies that outsource their coaching. 
+- Wider industry sales professionals that are trying to upskill and progress their career. 
+
+### User Requirements and Expectations
+
+- A simple clean and modern layout
+- A simple navigation on mobile and desktop. 
+- Obvious call to action to get users to book a call. 
+- Well laid out resource section. 
+- Overall responsive for Desktop and mobile. 
+- Accessibility
+
+### User Stories
+
+### First-time User
+
+1. First time users should clearly be able to book a call from all pages. 
+2. First time users should clearly be able to find resources to help their career. 
+3. First time users should clearly be able to find information on the upcoming event. 
+4. First time users should clearly be able to find the location of the offices. 
+
+### Returning Users
+
+1. Returning users should clearly be able to find the contact/book a call page. 
+2. Returning users should clearly be able to find the resources page. 
+3. Returning users should clearly be able to see the upcoming event page. 
+
+### Site owner
+
+1. The site owner wants users to be able to book a call asap. 
+2. The site owner wants to be able to push users to the event booking page. 
+3. The site owner wants a clean and professional website that matches the style of the brand. 
+
+##Design
+
+###Design Choices
+The website was designed to give a clean and professional look and feel to the user. The website looks modern while echoing the brands colors. 
+
+### Colour
+The colour scheme echos the colours of the brand, using the same dark blue from their logo  
