@@ -694,7 +694,6 @@ footer {
         width: 100%;
         text-align: center;
     }
-
     /*box section how we help*/
     .details h2{
         text-align: center;
@@ -707,6 +706,23 @@ footer {
     /* sales then*/
     .st-row {
         flex-direction: column;
+    }
+
+    /* footer section */
+    .footer {
+        flex-direction: column;
+    }
+    .socials {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .pages h2 {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .address {
+        display: none;
     }
 
     /*blog page*/
