@@ -1,7 +1,7 @@
 # Secret Sauce Sales consulting
 (Developer: Daniel O'Reilly)
 
-![Mockup image](docs/am_i_responsive)
+![Mockup image](docs/am_i_responsive.png)
 
 [Live webpage](https://doreilly2022.github.io/CI_PP1_SECRETSAUCE/)
 
