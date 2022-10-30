@@ -593,13 +593,13 @@ iframe {
 .contact .contact-content h2 {
     font-size: 36px;
     font-weight: 500;
-    color: #ffffff;
+    color: #f96700;
     font-family: "Montserrat", sans-serif ;
 
 }
 .contact .contact-content p {
     font-weight: 300;
-    color: #ffffff;
+    color: #f96700
     font-family: "Lato", sans-serif ;
 
 }
@@ -632,7 +632,7 @@ iframe {
     display: flex;
     margin-left: 20px;
     font-size: 18px;
-    color:#fff;
+    color:#f96700;
     flex-direction: column;
     font-weight: 300;
 }
