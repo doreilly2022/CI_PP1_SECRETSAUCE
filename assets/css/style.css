@@ -582,7 +582,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("../../assets/images/vintage_background.jpg");
+    background-color:#1b0b54;
     background-size: cover;
 }
 .contact .contact-content {
@@ -599,7 +599,7 @@ iframe {
 }
 .contact .contact-content p {
     font-weight: 300;
-    color: #f96700
+    color: #f96700;
     font-family: "Lato", sans-serif ;
 
 }
