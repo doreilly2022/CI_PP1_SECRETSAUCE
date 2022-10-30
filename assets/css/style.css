@@ -75,7 +75,6 @@ button:hover {
     height: 500px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -656,6 +655,7 @@ footer {
     }
 }
 @media (max-width: 900px) {
+    /*nav bar*/
     .checkbtn {
         display:block
     }
@@ -668,6 +668,7 @@ footer {
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 1000;
     }
     .nav-links li {
         display: block;
@@ -681,22 +682,71 @@ footer {
         background: none;
         color:#fff;
     }
+    .header-cta {
+        display: none;
+    }
+    /*hero*/
+    #hero-image {
+        width: auto;
+    }
+    #cover-text {
+        position:sticky;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*box section how we help*/
+    .details h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .details p{
+        text-align: left;
+        width: 80%;
+    }
+    /* sales then*/
     .st-row {
         flex-direction: column;
     }
+
+    /*blog page*/
     .blog-container {
         max-width:100%;
         grid-template-columns: 1fr 1fr;
     }
+
+    /* ss live page */
     .ss-live-row {
         flex-direction: column;
     }
     #check:checked ~ ul {
         left:0;
     }
+
+    /* contact us page */
+    .contact h2,p{
+        text-align: center;
+        width: auto;
+    }
+    .contact p {
+        margin-top: 10px;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-container .contactinfo .contact-box .icon {
+    display: none;
+    }
+    .contact-form {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
+    * {
+       width:100%; 
+       align-items: center;
+    }
     .blog-container {
         width: 90%;
         grid-template-columns: 1fr;
