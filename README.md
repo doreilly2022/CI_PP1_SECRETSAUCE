@@ -1,7 +1,7 @@
 # Secret Sauce Sales consulting
 (Developer: Daniel O'Reilly)
 
-![Mockup image]()
+![Mockup image](docs/am_i_responsive)
 
 [Live webpage](https://doreilly2022.github.io/CI_PP1_SECRETSAUCE/)
 
@@ -19,7 +19,6 @@
     2. [Colour](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
-    5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
@@ -86,10 +85,44 @@
 2. The site owner wants to be able to push users to the event booking page. 
 3. The site owner wants a clean and professional website that matches the style of the brand. 
 
-##Design
+## Design
 
-###Design Choices
+### Design Choices
 The website was designed to give a clean and professional look and feel to the user. The website looks modern while echoing the brands colors. 
 
 ### Colour
-The colour scheme echos the colours of the brand, using the same dark blue from their logo  
+The colour scheme echos the colours of the brand, using the same dark blue/navy from their logo. I tested the color choices on WebAIM to ensure they passed the contrast test. 
+
+(docs/color_pallete.png)
+
+### Fonts
+Montserrat was used for the headings and lato was used for the body. 
+
+### Structure
+The website is designed in a simple and responsive manner. The nav bar is displayed in a traditional way with logo to left and nav links to the right. On mobile the nav bar turns to a burger bar and pops out from the side upon click. 
+The website has 4 pages:
+1. A home page with info on the business and a CTA to book a call. 
+2. A resources page with blog info and a CTA to book a call. 
+3. An event page with info on the event with 2 CTAs, one to book a ticket, the other to book a call. 
+4. A contact page with a book a call form and a map as well as business information. 
+
+## Technologies Used
+
+### Languages
+- HTML 
+- CSS
+- Javascript
+
+### Frameworks and Tools 
+- Git
+- GitHub
+- Googlefonts
+- Font Awsome
+- Facicon.io 
+- Canva
+
+## Features
+The website consists of 4 pages and 12 features
+
+
+
