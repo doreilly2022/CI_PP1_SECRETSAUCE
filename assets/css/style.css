@@ -459,6 +459,9 @@ footer {
     color: #1b0b54;
     font-weight: 500;
 }
+h4 {
+    display:none;
+}
 /* ----------------------------- SS LIVE PAGE ----------------------------------- */
 /*Video section*/
 .ss-video-container {
