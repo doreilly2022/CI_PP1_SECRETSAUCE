@@ -582,7 +582,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(./assets/images/vintage_background.jpg);
+    background: url("/assets/images/vintage_background.jpg");
     background-size: cover;
 }
 .contact .contact-content {
