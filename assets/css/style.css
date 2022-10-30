@@ -525,13 +525,19 @@ footer {
 .ss-col p {
     color: black;
     text-align: left;
+    margin-bottom: 10%;
 }
-
-.ss-col button {
-    margin-top: 5%;
+.ss-live-cta {
+    padding:  25px;
+    background-color:rgba(249,105,14,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
     font-size: 25px
 }
-.ss-col button a {
+
+.ss-live-cta a {
     text-decoration: none;
     cursor: pointer;
     font-size: 25px
