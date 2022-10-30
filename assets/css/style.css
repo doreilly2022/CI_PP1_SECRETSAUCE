@@ -58,7 +58,7 @@ header {
     display:none;
 }
 /* cta button */
-button {
+.header-cta {
     padding: 5px 25px;
     background-color: rgba(249,105,14,1);
     border: none;
