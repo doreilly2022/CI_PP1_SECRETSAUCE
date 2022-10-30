@@ -155,13 +155,13 @@ h1 {
     padding: 20px 10px;
 }
 .details>h2{
-    color: #ffffff;
+    color: #1b0b54;
     font-weight: 600;
     font-size: 18px;
     margin: 10px 0 15px 0;
 }
 .details>p{
-    color: #ffffff;
+    color: #1b0b54;
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
@@ -284,6 +284,9 @@ footer {
     color: #1b0b54;
     background-color: #ffffff;
 }
+footer p {
+    color: #1b0b54;
+}
 .footer > * {
     flex: 1 100%;
 }
@@ -349,6 +352,7 @@ footer {
     outline: none;
     border: none;
 }
+
 
 @media (min-width: 600px){
     .footer-right > * {
