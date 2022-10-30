@@ -731,6 +731,9 @@ footer {
     .contact p {
         margin-top: 10px;
     }
+    .contactinfo {
+        display: none;
+    }
     .contact-container {
         flex-direction: column;
     }
