@@ -122,7 +122,134 @@ The website has 4 pages:
 - Canva
 
 ## Features
-The website consists of 4 pages and 12 features
+The website consists of four pages and eleven features
+
+### Logo and Navigation Bar 
+- Present on all pages.
+- The Nav bar is resposive and transforms to a hamburger menu on smaller screens
+- The Nav menu clearly shows the current page. 
+![Navigation Bar](docs/features/nav_bar.png)
+
+### Hero Image
+- Adds a stylish into to the user. 
+- Responsive text provokes the user with a message regarding sales. 
+![Hero Image](docs/features/hero_section.png)
+
+### Information Cards 
+- Gives the user information about the changing landscape in sales. 
+- Responsive sections with images makes the experience pleasant for the user. 
+![Information Cards](docs/features/info_cards.png)
+
+### CTA
+- Featured on three pages: Home, Resources and SS Live. 
+- Brings the users focus to a primary goal of the website - Booking calls. 
+- Responsive on mobile. 
+![CTA Section](docs/features/call_to_action.png)
+
+### Footer 
+- Featured on all four pages. 
+- Three sections : Pages Nav, Address, Newsletter signup. 
+- Responsive sections for better mobile experience. 
+![Footer](docs/features/footer.png)
+
+### Resources Section 
+- Allows users to access and download resources. 
+- Content is laid out well and responsive. 
+- Mock content automatically downloads in browser. 
+![Resources](docs/features/resources.png)
+
+### Video Section
+- Showcases upcoming event to users. 
+![Video Section](docs/features/video.png)
+
+### Speakers Section
+- Showcases Speakers for event to users. 
+![Speakers Section](docs/features/speakers_section.png)
+
+### CTA for ticket booking 
+- Pushes users to eventbrite to buy tickets. 
+![Ticket CTA](docs/features/cta_event.png)
+
+### Contact form 
+- Allows users to book a call with the team. 
+![Book a call](docs/features/book_a_call.png)
+
+### Embedded Map
+- Allows users to see where the business is located and adds to professionalism of the business. 
+![Map](docs/features/map_section.png)
+
+## Validation 
+
+### HTML Validation 
+Used W3C Validation to enure the html of the website was valid. All pages passed. 
+    <details><summary>Home</summary>
+    <img src="docs/validation/index_page_val_html.png">
+    <details><summary>Resources</summary>
+    <img src="docs/validation/resource_page_val_html.png">
+    <details><summary>SS-Live</summary>
+    <img src="docs/validation/ss_live_page_val_html.png">
+    <details><summary>Book a Call</summary>
+    <img src="docs/validation/book_call_page_val_html.png">
+        
+### CSS Validation
+Used W3C Jigsaw to ensure the css of the website was valid. The code passed. 
+    <details><summary>CSS</summary>
+    <img src="docs/validation/css_page_val.png">
+
+### Accessibility
+ Used Wave to ensure the website was highly accessible and met standards. All pages passed with 0 errors and 0 contrast errors. 
+    <details><summary>Home</summary>
+    <img src="docs/validation/wave_home.png">
+    <details><summary>Resources</summary>
+    <img src="docs/validation/wave_resources">
+    <details><summary>SS-Live</summary>
+    <img src="docs/validation/wave_sslive">
+    <details><summary>Book a Call</summary>
+    <img src="docs/validation/wave_contact">
+        
+### Performance
+ Used Google lighthouse in the google dev tools to test performance. All pages performed ok, performace could be gained by changing images to webp. 
+   <details><summary>Home</summary>
+    <img src="docs/validation/lighthouse_home.png">
+    <details><summary>Resources</summary>
+    <img src="docs/validation/lighthouse_resources.png">
+    <details><summary>SS-Live</summary>
+    <img src="docs/validation/lighthouse_sslive.png">
+    <details><summary>Book a Call</summary>
+    <img src="docs/validation/lighthouse_contact">
+ 
+### Performing tests on various devices
+ The website was tested on the following devices
+- Macbook Pro 
+- Dell Inspiron 
+- Google pixel 6
+        
+### Browser compatability
+ Ran the website on the following browsers to test:
+- Google Chrome
+- Firefox
+- Microsoft Edge
+        
+### Testing user stories
+        
+
+## Bugs
+        
+## Deployment 
+        
+## Credits
+
+### Media 
+        
+### Code
+        
+### Achknowledgements
+I would like to mention my mentor Mo Shami for his help and support on this project. His feedback has been critical for me to get the project to where it is. His attitude towards problem solving was inspiring and his relaxed attitude helped me finish this out. 
+        
+
+            
+
+
 
 
 
