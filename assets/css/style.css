@@ -80,8 +80,8 @@ button:hover {
 
 #cover-text  {
     color:white;
-    font: size 100%;
-    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    font-family:"Montserrat",sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;  
 
@@ -541,6 +541,14 @@ footer {
     text-decoration: none;
     cursor: pointer;
     font-size: 25px
+}
+
+iframe {
+    display: block;       
+    background: #000;
+    border: none;         
+    height: 100vh;        
+    width: 100vw;
 }
 
 /* ----------------------------- Media Queries ---------------------------------- */
