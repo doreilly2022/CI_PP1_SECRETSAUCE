@@ -184,12 +184,16 @@ The website consists of four pages and eleven features
 Used W3C Validation to enure the html of the website was valid. All pages passed. 
     <details><summary>Home</summary>
     <img src="docs/validation/index_page_val_html.png">
+    </details>
     <details><summary>Resources</summary>
     <img src="docs/validation/resource_page_val_html.png">
+    </details>
     <details><summary>SS-Live</summary>
     <img src="docs/validation/ss_live_page_val_html.png">
+    </details>
     <details><summary>Book a Call</summary>
     <img src="docs/validation/book_call_page_val_html.png">
+    </details>
         
 ### CSS Validation
 Used W3C Jigsaw to ensure the css of the website was valid. The code passed. 
