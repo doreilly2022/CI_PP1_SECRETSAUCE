@@ -116,7 +116,7 @@ button:hover {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/se_sauce_hero_image_\(1800\ ×\ 500px\).png') no-repeat center center;
+    background: url('../images/ss_hero.png') no-repeat center center;
 }
 /*Benefits Section*/
 h1 {
@@ -635,6 +635,7 @@ iframe {
     color:#f96700;
     flex-direction: column;
     font-weight: 300;
+    padding-right: 5%;
 }
 .contact-form {
     width: 40%;
