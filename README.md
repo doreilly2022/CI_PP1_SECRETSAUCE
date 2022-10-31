@@ -93,7 +93,7 @@ The website was designed to give a clean and professional look and feel to the u
 ### Colour
 The colour scheme echos the colours of the brand, using the same dark blue/navy from their logo. I tested the color choices on WebAIM to ensure they passed the contrast test. 
 
-(docs/color_pallete.png)
+[Color pallette](docs/color_pallete.png)
 
 ### Fonts
 Montserrat was used for the headings and lato was used for the body. 
