@@ -199,6 +199,7 @@ Used W3C Validation to enure the html of the website was valid. All pages passed
 Used W3C Jigsaw to ensure the css of the website was valid. The code passed. 
     <details><summary>CSS</summary>
     <img src="docs/validation/css_page_val.png">
+    </details>
 
 ### Accessibility
  Used Wave to ensure the website was highly accessible and met standards. All pages passed with 0 errors and 0 contrast errors. 
